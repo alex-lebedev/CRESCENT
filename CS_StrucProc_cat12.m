@@ -1,5 +1,5 @@
 %-----------------------------------------------------------------------
-% This is a template job-file for processing structural T1 images in the CRESCENT
+% This is a template job file for processing structural T1 images in the CRESCENT
 % Job generated on 15-Nov-2017 11:21:21 by Alexander Lebedev
 % requires SPM12 (used version 6685) and CAT12 installed in the toolbox folder
 %-----------------------------------------------------------------------
