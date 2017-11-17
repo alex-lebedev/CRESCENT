@@ -11,15 +11,23 @@ matlabbatch{1}.spm.tools.cat.estwrite.data = {
                                               % [...] list all the T1s you'd like to process
                                               };
 matlabbatch{1}.spm.tools.cat.estwrite.nproc = 5;
+
+% --- Reference to TPMs --- %
 matlabbatch{1}.spm.tools.cat.estwrite.opts.tpm = {'/home/ALDRECENTRUM/alexander.lebedev/Desktop/tbx/spm12/tpm/TPM.nii'};
+% ----------- END --------- %
+
 matlabbatch{1}.spm.tools.cat.estwrite.opts.affreg = 'mni';
 matlabbatch{1}.spm.tools.cat.estwrite.opts.biasstr = 0.75;
 matlabbatch{1}.spm.tools.cat.estwrite.extopts.APP = 2;
 matlabbatch{1}.spm.tools.cat.estwrite.extopts.LASstr = 0.75;
 matlabbatch{1}.spm.tools.cat.estwrite.extopts.gcutstr = 0.5;
 matlabbatch{1}.spm.tools.cat.estwrite.extopts.cleanupstr = 0.5;
+
+% --- References to the templates --- %
 matlabbatch{1}.spm.tools.cat.estwrite.extopts.registration.darteltpm = {'/home/ALDRECENTRUM/alexander.lebedev/Desktop/tbx/spm12/toolbox/cat12/templates_1.50mm/Template_1_IXI555_MNI152.nii'};
 matlabbatch{1}.spm.tools.cat.estwrite.extopts.registration.shootingtpm = {'/home/ALDRECENTRUM/alexander.lebedev/Desktop/tbx/spm12/toolbox/cat12/templates_1.50mm/Template_0_IXI555_MNI152_GS.nii'};
+% --------------- END --------------- %
+
 matlabbatch{1}.spm.tools.cat.estwrite.extopts.registration.regstr = 4;
 matlabbatch{1}.spm.tools.cat.estwrite.extopts.vox = 1.5;
 matlabbatch{1}.spm.tools.cat.estwrite.output.surface = 1;
